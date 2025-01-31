@@ -34,7 +34,7 @@ class Checkout : ComponentActivity() {
 
 @Composable
 fun CheckoutScreen() {
-    var output by remember { mutableStateOf("") }
+    val output by remember { mutableStateOf("") }
 
     // Get the context
     val context = LocalContext.current
